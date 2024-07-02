@@ -1,0 +1,21 @@
+{
+    "name": "satnetuser001/hello-world",
+    "description": "This is an application for learning class autoloading using Composer (PSR-4)",
+    "type": "project",
+    "require": {
+        "fakerphp/faker": "^1.23"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Anton Yurchenko",
+            "email": "satnetuser001@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
