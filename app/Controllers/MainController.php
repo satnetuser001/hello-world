@@ -6,8 +6,16 @@ use App\Models\User;
 
 class MainController
 {
+    protected $user;
+
+    public function __construct()
+    {
+        $this->user = new User();
+    }
+
     public function index()
     {
-        return "hi";
+        //The view cannot be autoloaded by the composer
+        include 'Views/index.phtml';
     }
 }
