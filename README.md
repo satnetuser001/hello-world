@@ -2,7 +2,11 @@ This is an application for learning class autoloading using Composer (PSR-4).
 
 To install the application run in the terminal:
 <br>
-composer create-project satnetuser001/hello-world
+composer create-project satnetuser001/hello-world hello-world
+<br>
+or
+<br>
+git clone https://github.com/satnetuser001/hello-world.git
 <br>
 composer install
 

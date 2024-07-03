@@ -23,6 +23,6 @@
             "url": "https://github.com/satnetuser001/hello-world"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true
 }
