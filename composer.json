@@ -17,5 +17,10 @@
             "email": "satnetuser001@gmail.com"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    {
+        "type": "vcs",
+        "url": "https://github.com/satnetuser001/hello-world"
+    }
 }
