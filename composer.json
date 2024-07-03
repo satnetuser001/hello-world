@@ -19,8 +19,10 @@
     ],
     "minimum-stability": "stable",
     "prefer-stable": true,
-    {
-        "type": "vcs",
-        "url": "https://github.com/satnetuser001/hello-world"
-    }
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/satnetuser001/hello-world"
+        }
+    ]
 }
