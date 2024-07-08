@@ -3,7 +3,11 @@
     "description": "This is an application for learning class autoloading using Composer (PSR-4)",
     "type": "project",
     "require": {
+        "php": ">=8.3",
         "fakerphp/faker": "^1.23"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^7.1"
     },
     "license": "MIT",
     "autoload": {
